@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Shoju";
+    src: url(./fonts/Shojumaru-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-image: url(../css/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background: url(./img/background.pn) center/cover;
+    /* width: 40px; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover {
+    color: #0aad9f;
+}
+
+.first {
+    height: 200px;
+    background: url(./img/top.avif) center/cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Shoju";
+    text-align: center;
+    color: #0aad9f;
+    font-size: 2rem;
+}
+
+.intro {
+    color: aliceblue;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    color: #0aad9f;
+}
+
+.sun {
+    background-image: url(./img/background-sun.png);
+}
+
+article {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+}
+
+.describe {
+    background-color: black;
+    border: 2px solid #0aad9f;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px;
+}
+
+p {
+    margin: 0;
+    color: aliceblue;
+}
+
+.card-planet {
+    height: 400px;
+    background-repeat: no-repeat;
+    border-top: 5px solid white;
+}
+
+.mercure {
+    background: url(./img/backgroung_mercure.jpg) center/cover;
+}
+
+.venus {
+    background: url(./img/background_venus.jpg) center/cover;
+}
+
+.earth {
+    background: url(./img/background\ earth.avif) center/cover;
+}
+
+.mars {
+    background: url(./img/background_mars.jpg) center/cover;
+}
+
+.saturn {
+    background: url(./img/background_saturne.png) center/cover;
+}
+
+.jupiter {
+    background: url(./img/background-jupiter.jpg) center/cover;
+}
+
+.uranus {
+    background: url(./img/background-uranus.jpg) center/cover;
+
+}
+
+.neptune {
+    background: url(./img/background-neptune.jpg) center/cover;
+}
+
+.pluton {
+    background: url(./img/background-pluton.jpg) center/cover;
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 400px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+
+.img-grid {
+    grid-area: 1 / 1 / 2 / 4;
+    margin-left: 200px;
+    margin: auto;
+
+}
+
+.describe-grid {
+    background-color: black;
+    border: 2px solid #0aad9f;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px;
+    grid-area: 1 / 4 / 2 / 6;
+}
+
+/*  Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-socials a {
+    margin: 0 10px;
+}
+
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+}
